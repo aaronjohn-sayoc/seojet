@@ -204,21 +204,16 @@ a:focus {
 .banner-wrapper {
 	display: inline-block;
 	position:relative;
-}
-
-.jet {
-	width: 100%;
-	max-width: 100%;
-	margin-left: 50%;
+	height: 70vh;
+	background-size: 50% 100%;
+	background-image: url('../images/jet.png');
+	background-repeat: no-repeat;
+	background-position: 75% 50%;
 }
 
 .testimonial {
-	position: absolute;
-	left: 10%;
-	right: 10%;
-	top: 10%;
-	width: 150%;
-	max-width: 150%;
+	width: 80%;
+	height: 80%;
 }
 
 #sidebar {
@@ -337,12 +332,27 @@ a.article:hover {
 ----------------------------------------------------- */
 
 
-@media (max-width: 1540px) {
+@media (max-width: 1024px) {
 
 	.quotation {
 	position: absolute;
 	right: 95%;
 	bottom: 110%;
+	}
+
+	.banner-wrapper {
+		display: inline-block;
+		position:relative;
+		height: 70vh;
+		background-size: 50% 100%;
+		background-image: url('../images/jet.png');
+		background-repeat: no-repeat;
+		background-position: 75% 50%;
+	}	
+
+	.testimonial {
+		width: 95%;
+		height: 80%;
 	}
 
 }
