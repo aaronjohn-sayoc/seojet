@@ -204,17 +204,14 @@ a:focus {
 .banner-wrapper {
 	display: inline-block;
 	position:relative;
-	height: 70vh;
-	background-size: 50% 100%;
-	background-image: url('../images/jet.png');
+	min-height: 70vh;
+    min-width: 20vw;
+	background-size: 75% 75%, 50% 100%;
+	background-image: url('../images/testimonial.png'), url('../images/jet.png');
 	background-repeat: no-repeat;
-	background-position: 75% 50%;
+	background-position: 50% 25%, center center;
 }
 
-.testimonial {
-	width: 80%;
-	height: 80%;
-}
 
 #sidebar {
     width: 350px;
@@ -331,6 +328,111 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
+@media (min-width: 7680px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 25% 35%, 30% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: -1% 25%, 0% 50%;
+    }    
+}
+
+@media (min-width: 5760px) and (max-width: 7679px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 32% 40%, 30% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: -1% 25%, 0% 50%;
+    }    
+}
+
+@media (min-width: 5760px) and (max-width: 7679px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 32% 40%, 30% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: -1% 25%, 0% 50%;
+    }    
+}
+
+@media (min-width: 3840px) and (max-width: 5759px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 50% 60%, 40% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: -5% 25%, 10% 50%;
+    }    
+}
+
+
+@media (min-width: 2880px) and (max-width: 3839px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 60% 70%, 40% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: 5% 25%, 30% 50%;
+    }    
+}
+
+@media (min-width: 2560px) and (max-width: 2879px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 70% 70%, 50% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: 5% 25%, 30% 50%;
+    }    
+}
+
+@media (min-width: 2400px) and (max-width: 2559px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 70% 70%, 50% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: 15% 25%, 30% 50%;
+    }
+}
+
+@media (min-width: 2133px) and (max-width: 2399px) {
+    .banner-wrapper {
+        display: inline-block;
+        position:relative;
+        min-height: 70vh;
+        min-width: 20vw;
+        background-size: 70% 70%, 50% 100%;
+        background-image: url('../images/testimonial.png'), url('../images/jet.png');
+        background-repeat: no-repeat;
+        background-position: 45% 25%, center center;
+    }
+}
+   
 
 @media (max-width: 1024px) {
 
@@ -340,20 +442,16 @@ a.article:hover {
 	bottom: 110%;
 	}
 
-	.banner-wrapper {
-		display: inline-block;
-		position:relative;
-		height: 70vh;
-		background-size: 50% 100%;
-		background-image: url('../images/jet.png');
-		background-repeat: no-repeat;
-		background-position: 75% 50%;
-	}	
-
-	.testimonial {
-		width: 95%;
-		height: 80%;
-	}
+.banner-wrapper {
+    display: inline-block;
+    position:relative;
+    min-height: 70vh;
+    min-width: 40vw;
+    background-size: 75% 75%, 50% 100%;
+    background-image: url('../images/testimonial.png'), url('../images/jet.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%, center center;
+}
 
 }
 
